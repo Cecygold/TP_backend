@@ -18,7 +18,7 @@
   POST "/telefonos/agregar"
 
 # IMPORTANTE: se adjunta el archivo postman.js con el fin de facilitar las pruebas con Postman.
-Una vez que se logea el usuario se le da un token, mientras sea válido, se podra acceder a estas rutas: 
+Una vez que se logea el usuario se le da un token, mientras sea válido y no expirado, se podra acceder a estas rutas: 
   DELETE "/usuarios/borrar" 
   PUT "/usuarios/actualizar"
   POST "/telefonos/agregar"
