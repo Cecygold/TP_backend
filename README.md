@@ -4,12 +4,12 @@
 3. Renombrar el archivo "env.example" a ".env".
 4. Editar el archivo .env completando los campos con los datos del "localhost".
 5. En caso que la BD no exista previamente, crearla (CREATE DATABASE ...;).
-6. Para instalar todas las librerias y dependencias ejecutar $ nmp i
+6. Para instalar todas las librerias y dependencias ejecutar `$ nmp install`
 7. Inicializar el backend, hubiquese en la carpeta del proyecto y ejecute cualquiera de las siguientes opciones:
    # Modo normal 
-     $ node index.js
+     `$ node index.js`
    # Modo desarrollo 
-     $ npm run dev
+     `$ npm run dev`
 
 * Rutas expuestas:
   GET "/provincias"
