@@ -1,6 +1,7 @@
 # TP_backend
 * Pasos para levantar el servidor:
 1. Ejecutar `$ git clone https://github.com/Cecygold/TP_backend.git` para clonar el repositorio.
+2. Nos ubicamos en la carpeta recien importada `$ cd TP_backend`
 3. Renombrar el archivo "env.example" a ".env".
 4. Editar el archivo .env completando los campos con los datos del "localhost".
 5. En caso que la BD no exista previamente, crearla (CREATE DATABASE ...;).
